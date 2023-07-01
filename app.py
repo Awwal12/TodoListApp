@@ -6,11 +6,12 @@ notes = []
 
 
 def addNote():
-    pass
+    val = input("What do you wish to add:\n")
+    notes.append(val)
 
 
 def printNotes():
-    pass
+    print(notes)
 
 
 def deleteNote():
